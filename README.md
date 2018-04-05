@@ -20,7 +20,7 @@ $ omf install johanson
 ## Screenshot
 
 <p align="center">
-<img src="Screenshot-1.png">
+<img src="https://github.com/johanson/theme-johanson/blob/master/screenshot-1.png">
 </p>
 
 
