@@ -30,8 +30,8 @@ $ omf install johanson
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/rasmusjoh
-[contributors]:   https://github.com/rasmusjoh/theme-johanson/graphs/contributors
+[author]:         https://github.com/johanson
+[contributors]:   https://github.com/johanson/theme-johanson/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
