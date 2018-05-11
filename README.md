@@ -1,4 +1,4 @@
-<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px" style="margin-right: 20px;" />
+<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
 #### johanson
 > A two-line theme for [Oh My Fish][omf-link] with Python virtual environment  and fabfile support. Loosely based on cbjohnson.
@@ -9,25 +9,27 @@
 
 <br/>
 
-
 ## Install
 
 ```fish
 $ omf install johanson
 ```
-
-
 ## Screenshot
 
 <p align="center">
-<img src="https://github.com/johanson/theme-johanson/blob/master/screenshot-1.png">
+
+![Omf johanson theme screenshot](screenshots/omf-theme-johanson-1.png?raw=true)
+
+![Omf johanson theme screenshot](screenshots/omf-theme-johanson-2.png?raw=true)
+
+![Omf johanson theme screenshot](screenshots/omf-theme-johanson-3.png?raw=true)
+
 </p>
 
 
 # License
 
 [MIT][mit] © [Rasmus Johanson][author] et [al][contributors]
-
 
 [mit]:            https://opensource.org/licenses/MIT
 [author]:         https://github.com/johanson
