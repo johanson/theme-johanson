@@ -1,4 +1,4 @@
-<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
+<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px" style="margin-right: 20px;" />
 
 #### johanson
 > A two-line theme for [Oh My Fish][omf-link] with Python virtual environment  and fabfile support. Loosely based on cbjohnson.
