@@ -16,16 +16,11 @@ $ omf install johanson
 ```
 ## Screenshot
 
-<p align="center">
-
 ![Omf johanson theme screenshot](screenshots/omf-theme-johanson-1.png?raw=true)
 
 ![Omf johanson theme screenshot](screenshots/omf-theme-johanson-2.png?raw=true)
 
 ![Omf johanson theme screenshot](screenshots/omf-theme-johanson-3.png?raw=true)
-
-</p>
-
 
 # License
 
