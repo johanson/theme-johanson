@@ -16,14 +16,16 @@ function fish_prompt
     set -l cyan (set_color cyan)
     set -l green (set_color green)
     set -l red (set_color red)
-    # directory_color
-    # repository_color
+
+    set prefix ""
 
     if test "$VIRTUAL_ENV"
         set venv_name (basename $VIRTUAL_ENV)
-        set venv "[$venv_name]: "
-    else
-        set venv " "
+        set prefix "$prefix""[$venv_name]"
+    end
+
+    if [ -f fabfile.py ]
+        set prefix "$prefix""[fabfile]"
     end
 
     set -l status_color $magenta
@@ -31,14 +33,18 @@ function fish_prompt
         set status_color $red
     end
 
+    if [ $prefix != "" ]
+        set prefix "$prefix:"
+    end
+
     # Top
     echo -n $cyan$USER$normal at $green$__fish_prompt_hostname$normal in $green(prompt_pwd)$normal
     __fish_git_prompt
 
-
+    # Line break
     echo
 
-
-    echo -n $status_color$__fish_prompt_char$normal$venv$normal
+    # Bottom
+    echo -n $status_color$__fish_prompt_char$normal$prefix $normal
 
 end
