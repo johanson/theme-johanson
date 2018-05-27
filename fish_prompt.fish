@@ -25,7 +25,7 @@ function fish_prompt
     end
 
     if [ -f fabfile.py ]
-        set prefix "$prefix""[fabfile]"
+        set prefix "$prefix""[fab]"
     end
 
     set -l status_color $magenta
